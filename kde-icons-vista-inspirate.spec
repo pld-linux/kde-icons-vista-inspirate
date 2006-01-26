@@ -1,4 +1,4 @@
-#$Revision: 1.1 $, $Date: 2006-01-25 21:36:05 $
+#$Revision: 1.2 $, $Date: 2006-01-26 10:52:57 $
 
 %define		_name Vista-Inspirate
 
@@ -17,14 +17,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-%{_name} is an icon theme based on the theme nuoveXT and Windows Vista. 
-It is strongly recommended to have NuoveXT (1.5) installed to use this theme,
-simply because it inherits it (all mimetypes for instance).
+Vista-Inspirate is an icon theme based on the theme nuoveXT and
+Windows Vista. It is strongly recommended to have NuoveXT (1.5)
+installed to use this theme, simply because it inherits it (all
+mimetypes for instance).
 
 %description -l pl
-%{_name} jest motywem ikon opartym na motywie nuoveXT oraz na Windows Vista.
-Zalecane jest, aby posiadaæ zainstalowany równie¿ motym NuoveXT, poniewa¿
-motyw %{_name} czê¶ciowo wykorzystuje ikony tam zawarte (np. dla typów mime).
+Vista-Inspirate jest motywem ikon opartym na motywie nuoveXT oraz na
+Windows Vista. Zalecane jest, aby posiadaæ zainstalowany równie¿ motyw
+NuoveXT (1.5), poniewa¿ motyw Vista-Inspirate czê¶ciowo wykorzystuje
+ikony tam zawarte (np. dla typów mime).
 
 %prep
 
