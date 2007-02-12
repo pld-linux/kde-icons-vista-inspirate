@@ -1,9 +1,9 @@
-#$Revision: 1.2 $, $Date: 2006-01-26 10:52:57 $
+#$Revision: 1.3 $, $Date: 2007-02-12 00:48:58 $
 
 %define		_name Vista-Inspirate
 
 Summary:	KDE icons - %{_name}
-Summary(pl):	Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	1.0
 Release:	1
@@ -22,11 +22,11 @@ Windows Vista. It is strongly recommended to have NuoveXT (1.5)
 installed to use this theme, simply because it inherits it (all
 mimetypes for instance).
 
-%description -l pl
+%description -l pl.UTF-8
 Vista-Inspirate jest motywem ikon opartym na motywie nuoveXT oraz na
-Windows Vista. Zalecane jest, aby posiadaæ zainstalowany równie¿ motyw
-NuoveXT (1.5), poniewa¿ motyw Vista-Inspirate czê¶ciowo wykorzystuje
-ikony tam zawarte (np. dla typów mime).
+Windows Vista. Zalecane jest, aby posiadaÄ‡ zainstalowany rÃ³wnieÅ¼ motyw
+NuoveXT (1.5), poniewaÅ¼ motyw Vista-Inspirate czÄ™Å›ciowo wykorzystuje
+ikony tam zawarte (np. dla typÃ³w mime).
 
 %prep
 
